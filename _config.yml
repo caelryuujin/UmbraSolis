@@ -1,7 +1,6 @@
-title: "Umbra Solis"
-description: "Updates, worldbuilding, characters, and more"
+title: Umbra Solis
+description: Updates, worldbuilding, characters, and more
 baseurl: "" # Leave this blank for user.github.io repo
-url: "https://caelryuujin.github.io"
 theme: minima
 
 # Custom navigation links
