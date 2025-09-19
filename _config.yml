@@ -20,3 +20,8 @@ author:
 
 markdown: kramdown
 highlighter: rouge
+
+navigation:
+  enabled: true
+  data_file: navigation.yml
+
