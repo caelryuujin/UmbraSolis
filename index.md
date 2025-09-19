@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Umbra Solis"
+title: "Homepage"
 excerpt: "Read anticipations, explore the world, and meet the characters."
 ---
 
