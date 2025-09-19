@@ -4,18 +4,9 @@ baseurl: "" # Leave this blank for user.github.io repo
 url: "https://caelryuujin.github.io"
 theme: minima
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-
-paginate: 5
-paginate_path: "/page:num/"
-
 author:
   name: "Cael"
-  avatar: "/assets/caelpic1.png"
+  avatar: "assets/caelpic1.png"
   bio: "Hi there, I'm Cael. I'm the author of Umbra Solis, but in my free time I'm a physicist! Hope you'll enjoy the story and the world I'm creating!"
 
 # Custom navigation links
