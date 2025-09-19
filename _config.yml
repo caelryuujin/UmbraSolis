@@ -2,7 +2,7 @@ title: "Umbra Solis"
 description: "Updates, worldbuilding, characters, and more"
 baseurl: "" # Leave this blank for user.github.io repo
 url: "https://caelryuujin.github.io"
-theme: "minimal-mistakes-jekyll"
+theme: minima
 
 plugins:
   - jekyll-feed
@@ -18,10 +18,11 @@ author:
   avatar: "/assets/caelpic1.png"
   bio: "Hi there, I'm Cael. I'm the author of Umbra Solis, but in my free time I'm a physicist! Hope you'll enjoy the story and the world I'm creating!"
 
-markdown: kramdown
-highlighter: rouge
-
-navigation:
-  enabled: true
-  data_file: navigation.yml
+# Custom navigation links
+header_pages:
+  - index.md
+  - Characterindex.md
+  - Places/Places.md
+  - Updates/Updates.md
+  - about.md
 
