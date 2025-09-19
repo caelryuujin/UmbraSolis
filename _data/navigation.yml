@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Chapters"
+    url: /categories/chapters/
+  - title: "Lore"
+    url: /lore/magic-system/
+  - title: "Characters"
+    url: /lore/characters/
