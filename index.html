@@ -6,6 +6,18 @@
   <title> Cael | Author of Umbra Solis</title>
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- AOS Library CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // duration of animation in ms
+        once: true,     // whether animation should happen only once
+      });
+    </script>
+
+
   <script>
   document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.getElementById("nav-toggle");
@@ -102,16 +114,16 @@
     <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
       <img src="https://via.placeholder.com/500x700" alt="Series Cover" class="rounded shadow-lg">
       <div>
-        <h2 class="text-5xl cinzel-decorative-bold mb-8 text-[rgb(195,99,255)]">About Cael</h2>
-        <p class="text-white mb-6 montserrat font-size:20px">Some random bullshit about me</p>
-        <p class="text-white mb-6 montserrat font-size:20px">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</p>
+        <h2 class="text-5xl cinzel-decorative-bold mb-8 text-[rgb(195,99,255)]" data-aos="fade-up">About Cael</h2>
+        <p class="text-white mb-6 montserrat font-size:20px" data-aos="fade-up">Some random bullshit about me</p>
+        <p class="text-white mb-6 montserrat font-size:20px" data-aos="fade-up">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo</p>
         <a href="#" class="border border-[rgb(195,99,255)] text-white hover:bg-[rgb(195,99,255)] hover:text-white font-semibold montserrat py-3 px-6 rounded transition ">Learn more</a>
       </div>
     </div>
   </section>
 
     <!-- HERO SECTION --> 
-  <section id="series" class="scroll-mt-20 relative bg-cover bg-center h-[80vh]" style="background-image: url('https://via.placeholder.com/1600x900');">
+  <section id="series" class="scroll-mt-20 relative bg-cover bg-center h-[80vh]" data-aos="fade-up" style="background-image: url('https://via.placeholder.com/1600x900');">
   <div class="absolute inset-0 bg-black bg-opacity-60"></div>
   <div class="relative z-10 flex flex-col justify-center items-end h-full max-w-7xl mx-auto px-4 text-white">
     <h1 class="text-4xl sm:text-8xl font-bold mb-4 cinzel-decorative-black">Umbra Solis</h1>
@@ -123,7 +135,7 @@
   <!-- LATEST CHAPTERS / UPDATES -->
   <section class="py-16 bg-[rgb(40,19,69)]">
     <div class="max-w-7xl mx-auto px-4">
-      <h2 class="text-3xl font-bold montserrat text-center mb-10 text-white">Latest Chapters</h2>
+      <h2 class="text-3xl font-bold montserrat text-center mb-10 text-white" data-aos="fade-up">Latest Chapters</h2>
       <div class="grid md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
           <h3 class="text-xl font-bold montserrat mb-2">Chapter 0: Prologue</h3>
